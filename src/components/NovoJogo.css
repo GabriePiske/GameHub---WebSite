@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.titulo_formulario {
+  font-family: Inter;
+}
+
+form {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 1.5rem;
+  margin-left: 1rem;
+  background-color: #f3f6fa;
+  border-radius: 8px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+}
+
+form p {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+form label {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form textarea {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border: 1px solid #b0c4de;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+  border-color: #5c9ecf;
+  outline: none;
+  box-shadow: 0 0 4px rgba(92, 158, 207, 0.4);
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+  max-height: 200px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"] {
+  background-color: #5c9ecf;
+}
+
+form input[type="reset"] {
+  background-color: #f76c6c;
+}
+
+form input[type="submit"]:hover {
+  background-color: #497ba9;
+}
+
+form input[type="reset"]:hover {
+  background-color: #f44336;
+}

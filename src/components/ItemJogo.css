@@ -1,0 +1,36 @@
+
+button {
+  background-color: #00f;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.comentario {
+  font-size: small;
+  color: #4b4a4a;
+}
+
+.novo {
+  width: 150px;
+  margin: 12px;
+  border-radius: 10px;
+}
+
+.grid-item {
+  display: flex;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.grid-item:hover {
+  transform: translateY(-10px);
+}
